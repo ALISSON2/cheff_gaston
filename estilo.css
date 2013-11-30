@@ -1,0 +1,132 @@
+*{border:0.2em;
+  margin:0.2em;
+  padding:0.2em;
+ }
+body
+{
+    background:url(fonditoo.png);   
+    font-family:arial;
+    font-size:16px;
+    margin:0;
+    padding:0;
+}
+@font-face
+{
+    font-family: 'black_roseregular';
+     src: url('../fonts/blackr/blackr-webfont.eot');
+     src: url('../fonts/blackr/blackr-webfont.eot?#iefix')           format('embedded-opentype'),
+         url('../fonts/blackr/blackr-webfont.woff') format('woff'),
+         url('../fonts/blackr/blackr-webfont.ttf') format('truetype'),
+         url('../fonts/blackr/blackr-webfont.svg#black_roseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;    
+}
+header
+{
+    background-color:#5ea4aa;
+    margin:0.5em;
+    padding:0.5em;
+}
+h1
+{
+   font-family:black_roseregular,"Arial narrow",verdana,helvetica;
+   font-size:2em;
+   margin:0.25em auto;
+   text-align:center;
+   text-shadow:5px 5px 10px rgba(255,255,255,0.5);
+} 
+header figure img
+{
+    float:right;
+    padding:0.5em 0.5em 0 0;
+    width:50px;
+}
+header h1
+{
+    color:white;
+    font-size:3em;
+    text-shadow:2px 2px #000;
+}
+header#opcciones
+{
+    display:block;
+    width:30px;
+}
+header p
+{
+    color:orange;
+    font-size:2em;
+    margin-right:300px;
+    text-align:right;   
+}
+.service
+{
+    background:#fff;
+    border:0.1em solid #ccc;
+    border-radius:0.25em;
+    color:green;
+    display:block;
+    float:right;
+    font-family:arial;
+    font-size:1em;
+    margin:0.25em auto;
+    max-width:12%;
+    padding:0.2em;
+    text-align:center;
+    vertical-align:top;
+    text-decoration:none;
+}
+article.contenedor
+{
+    font-size:2em;
+    float:left;
+}
+article figure img
+{
+    float:right;
+    width:140px;
+}
+#comida
+{
+    color:#085E00;
+}
+#platos
+{
+    color:#6F1821;
+}
+#espectaculo
+{
+    color:#8E6207;
+}
+section
+{
+   background-color:#dbcd44;
+    margin:0.5em 0.5em 0.5em 0.5em;
+    padding:0.5em 0.5em 0.5em 0.5em;
+}
+article
+{
+    background:url(fondoo.jpg);
+    height:90%;
+    margin:0.5em;
+    padding:0.5em;
+    width:98%;
+}
+article a
+{
+    background:#9BC15E;
+    border:0.1em solid #085E00;
+    border-radius:0.25em;
+    color:#fff;
+    display:block;
+    font-family:arial;
+    font-size:1em;
+    margin:0.25em auto;
+    max-width:12%;
+    padding:0.2em;
+    text-align:center;
+    vertical-align:top;
+    text-decoration:none;
+}
+
+
