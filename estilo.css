@@ -1,6 +1,6 @@
-*{border:0.2em;
-  margin:0.2em;
-  padding:0.2em;
+*{border:0.1em;
+  margin:0.1em;
+  padding:0.1em;
  }
 body
 {
@@ -24,15 +24,16 @@ body
 header
 {
     background-color:#5ea4aa;
-    margin:0.5em;
-    padding:0.5em;
+    /*margin:0.5em;
+    padding:0.5em;*/
+    box-shadow:2px 2px black;
 }
 h1
 {
    font-family:black_roseregular,"Arial narrow",verdana,helvetica;
    font-size:2em;
-   margin:0.25em auto;
-   text-align:center;
+   /*margin:0.25em auto;*/
+   text-align:left;
    text-shadow:5px 5px 10px rgba(255,255,255,0.5);
 } 
 header figure img
@@ -47,7 +48,7 @@ header h1
     font-size:3em;
     text-shadow:2px 2px #000;
 }
-header#opcciones
+header#opciones
 {
     display:block;
     width:30px;
@@ -56,13 +57,13 @@ header p
 {
     color:orange;
     font-size:2em;
-    margin-right:300px;
+    margin-right:150px;
     text-align:right;   
 }
 .service
 {
     background:#fff;
-    border:0.1em solid #ccc;
+    border:0.2em solid #ccc;
     border-radius:0.25em;
     color:green;
     display:block;
@@ -70,11 +71,14 @@ header p
     font-family:arial;
     font-size:1em;
     margin:0.25em auto;
-    max-width:12%;
-    padding:0.2em;
+	margin-right:8px;
+    max-width:20%;
+    padding:0.3em;
+    position:relative;
     text-align:center;
-    vertical-align:top;
     text-decoration:none;
+    vertical-align:top;
+    top:-20px;
 }
 article.contenedor
 {
@@ -84,46 +88,66 @@ article.contenedor
 article figure img
 {
     float:right;
-    width:140px;
+    width:180px;
 }
 #comida
 {
     color:#085E00;
+    font-size:2em;
 }
 #platos
 {
     color:#6F1821;
+    font-size:2em;
 }
 #espectaculo
 {
     color:#8E6207;
+    font-size:2em;
 }
 section
 {
-   background-color:#dbcd44;
-    margin:0.5em 0.5em 0.5em 0.5em;
-    padding:0.5em 0.5em 0.5em 0.5em;
+    background-color:#dbcd44;
+    margin:0 0.2em 0.2em 0.2em;
+    padding:0 0.2em 0.2em 0.2em;
 }
 article
 {
-    background:url(fondoo.jpg);
+    background:url(fondoos.jpg);
+    border-radius:0.5em;
     height:90%;
     margin:0.5em;
     padding:0.5em;
-    width:98%;
+    box-shadow:2px 2px black;
 }
 article a
 {
     background:#9BC15E;
-    border:0.1em solid #085E00;
+    border:0.2em solid #085E00;
     border-radius:0.25em;
     color:#fff;
     display:block;
     font-family:arial;
     font-size:1em;
     margin:0.25em auto;
-    max-width:12%;
-    padding:0.2em;
+    max-width:8%;
+    padding:0.25em;
+    text-align:center;
+    vertical-align:top;
+    text-decoration:none;
+}
+article a:hover
+{
+    background:black;
+    border:0.2em dashed yellow;
+    border-radius:0.25em;
+    color:fuchsia;
+    display:block;
+    font-family:arial;
+    font-size:1em;
+    margin:0.25em auto;
+    max-width:8%;
+    padding:0.25em;
     text-align:center;
     vertical-align:top;
     text-decoration:none;

@@ -4,6 +4,7 @@
  }
 body
 {
+    background:url(stars.jpg);
     font-family:arial;
     font-size:16px;
     margin:0;
@@ -20,16 +21,12 @@ body
     font-weight: normal;
     font-style: normal;
 }
-header
-{
-    background-color:#5ea4aa;
-}
 h1
 {
    font-family:black_roseregular,"Arial narrow",verdana,helvetica;
    font-size: 2em;
    margin:0.25em auto;
-   text-align:center;
+   text-align:left;
    text-shadow:5px 5px 10px rgba(255,255,255,0.5);
 } 
 .contenedor
@@ -48,7 +45,7 @@ header h1
     font-size:3em;
     text-shadow:2px 2px #000;
 }
-header #opcciones
+header #opciones
 {
     display:block;
     width:30px;
@@ -68,13 +65,13 @@ header
 {
     background-color:#5ea4aa;  
     margin:0 auto;
-    max-width:95%;
+    max-width:100%;
 }
 section#contenedor,footer
 {
-    background:url(fonditoo.png);
+    background:url(gard.jpg);
     margin:0 auto;
-    max-width:95%;
+    max-width:100%;
     text-align:center;   
  }
 section#contenedor
@@ -94,10 +91,13 @@ section#principal,aside
     min-height:200px;
     padding:0.05em;
     vertical-align:top;
-        width:67.5%;
+    width:67.5%;
 }  
-aside{font-family:black_roseregular,"Arial narrow",verdana,helvetica;
-  width:30%;} 
+aside
+{
+    font-family:black_roseregular,"Arial narrow",verdana,helvetica;
+    width:30%;
+} 
 article
  {
   background:#f69;
@@ -108,7 +108,8 @@ article
  }  
 footer
 {
-    color:blue;
+    color:lime;
+    font-family:black_roseregular,"Arial narrow",verdana,helvetica;
     font-size:0.85em;
     padding:0.75em 0;
    }   
